@@ -25,10 +25,10 @@ body {
     text-align: center;
     color: transparent;
     position: fixed;
-    -webkit-animation: blurFadeInOut 3s ease-in backwards;
-    -moz-animation: blurFadeInOut 3s ease-in backwards;
-    -ms-animation: blurFadeInOut 3s ease-in backwards;
-    animation: blurFadeInOut 3s ease-in backwards;
+    -webkit-animation: blurFadeInOut 2s ease-in backwards;
+    -moz-animation: blurFadeInOut 2s ease-in backwards;
+    -ms-animation: blurFadeInOut 2s ease-in backwards;
+    animation: blurFadeInOut 2s ease-in backwards;
 }
 .splashlogo {
     display: block;
@@ -41,10 +41,10 @@ body {
     color: transparent;
     transform: scale(2);
     -webkit-transform: scale(2);
-    -webkit-animation: blurFadeIn 16s ease-in backwards;
-    -moz-animation: blurFadeIn 16s ease-in backwards;
-    -ms-animation: blurFadeIn 16s ease-in backwards;
-    animation: blurFadeIn 16s ease-in backwards;
+    -webkit-animation: blurFadeIn 10s ease-in backwards;
+    -moz-animation: blurFadeIn 10s ease-in backwards;
+    -ms-animation: blurFadeIn 10s ease-in backwards;
+    animation: blurFadeIn 10s ease-in backwards;
 }
 .text1 {
     -webkit-animation-delay: 0s;
@@ -53,16 +53,16 @@ body {
     animation-delay: 0s;
 }
 .text2 {
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -ms-animation-delay: 2s;
+    animation-delay: 2s;
+}
+.text3 {
     -webkit-animation-delay: 4s;
     -moz-animation-delay: 4s;
     -ms-animation-delay: 4s;
     animation-delay: 4s;
-}
-.text3 {
-    -webkit-animation-delay: 8s;
-    -moz-animation-delay: 8s;
-    -ms-animation-delay: 8s;
-    animation-delay: 8s;
 }
 .text4 {
     -webkit-animation-delay: 0s;
@@ -83,10 +83,10 @@ body {
     z-index: -5;
     position: absolute;
     color: transparent;
-    -webkit-animation: FadeOut 20s ease-in;
-    -moz-animation: FadeOut 20s ease-in;
-    -ms-animation: FadeOut 20s ease-in;
-    animation: FadeOut 20s ease-in;
+    -webkit-animation: FadeOut 12s ease-in;
+    -moz-animation: FadeOut 12s ease-in;
+    -ms-animation: FadeOut 12s ease-in;
+    animation: FadeOut 12s ease-in;
     -webkit-animation-delay: 0s;
     -moz-animation-delay: 0s;
     -ms-animation-delay: 0s;
