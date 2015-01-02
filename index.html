@@ -1,44 +1,53 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" ng-app="firstapp">
+
 <head ng-controller="headerctrl">
-<title ng-bind="'Website Name - '+template.title">Website Name</title>
-<link rel="shortcut icon" href="img/favicon.ico"/>
-<link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="lib/css/font-awesome.min.css" />
-<link rel="stylesheet" type="text/css" href="lib/css/animate.css" />
-<link rel="stylesheet" type="text/css" href="css/main.css" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script src="lib/js/jquery-1.11.1.min.js"></script>
-<script src="lib/js/angular.min.js"></script>
-<!--<script src="lib/js/angular-animate.js"></script>-->
-<script src="lib/js/angular-route.min.js"></script>
-<!--<script src="lib/js/angular-resource.min.js"></script>-->
+    <title ng-bind="'Website Name - '+template.title">Website Name</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="lib/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="lib/css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="lib/js/jquery-1.11.1.min.js"></script>
+    <script src="lib/js/angular.min.js"></script>
+    <!--<script src="lib/js/angular-animate.js"></script>-->
+    <script src="lib/js/angular-route.min.js"></script>
+    <!--<script src="lib/js/angular-resource.min.js"></script>-->
 
-<script src="lib/js/bootstrap.min.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slicknav.css">
 
-<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script src="js/jquery.slicknav.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-	$('#menu').slicknav();
-});
-</script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#menu').slicknav();
+        });
+    </script>
 
-<script src="js/app.js"></script>
-<script src="js/controllers.js"></script>
-<script src="js/templateservice.js"></script>
-<script src="js/navigation.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/templateservice.js"></script>
+    <script src="js/navigation.js"></script>
 
 </head>
+
 <body>
+    <div class="blackbg">
+        <h2 class="frame1 text1">ONE TEAM</h2>
+        <h2 class="frame1 text2">ONE FAMILY</h2>
+        <h2 class="frame1 text3">ONE HEARTBEAT</h2>
+       <!-- <h2 class="frame1 text4">SOMAIYA VIDYAVIHAR </br> SPORTS CENTER</h2>-->
+        <img class="splashlogo text4" src="img/flashlogo.jpg">
+    </div>
 
 
-  <div  class="repeated-item"  ng-view></div>
- 
+    <div class="repeated-item" ng-view></div>
+
 
 </html>
