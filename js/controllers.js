@@ -9,6 +9,33 @@ phonecatControllers.controller('home', ['$scope', 'TemplateService', 'Navigation
       
         TemplateService.content = "views/content.html";
         console.log($scope.content);
+
+        $scope.showmenu = function () {
+            $('#mobilemenu').toggleClass('active');
+            $('.menubutton span').toggleClass('active');
+            $('.menubutton span:before').toggleClass('active');
+            $('.menubutton span:after').toggleClass('active');            
+        };
+
+        $scope.devicetest = function () {
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                return true;
+            } else {
+                return false;
+            };
+        };
+
+        $('#mobilemenu').addClass('animated lightSpeedIn');
+
+      console.log("Abhay Amin");
+        var ypos = 10;
+        $(window).scroll(function () {
+            ypos = window.pageYOffset;
+            console.log(ypos);
+            if(ypos > 100){
+                $('#mobilemenu').toggleClass('active');
+            };
+        });
   }]);
 
 

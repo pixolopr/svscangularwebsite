@@ -1,8 +1,14 @@
 <div class="container">
     <h2 class="title">
-    {{menutitle}}
-</h2>
-    <p>
+        {{menutitle}}
+    </h2>
+    <p ng-show="devicetest()">
         ABHAY AMIN
+    </p>
+    <p ng-hide="devicetest()">
+        <h2>OMKAR KULKARNI</br>
+        
+        </h2>
+        
     </p>
 </div>
