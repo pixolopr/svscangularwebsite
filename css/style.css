@@ -94,7 +94,7 @@ body {
     animation-delay: 0s;
 }
 /* ---------- BLUR FADE IN OUT ANIMATION --------------- */
-
+/*
 @-webkit-keyframes blurFadeInOut {
     0% {
         opacity: 0;
@@ -152,8 +152,9 @@ body {
         -ms-transform: scale(0);
     }
 }
+*/
 /* ---------- BLUR FADE IN ANIMATION --------------- */
-
+/*
 @-webkit-keyframes blurFadeIn {
     0%, 70% {
         opacity: 0;
@@ -208,8 +209,9 @@ body {
         -ms-transform: scale(2);
     }
 }
+*/
 /* ---------- FADE OUT ANIMATION --------------- */
-
+/*
 @-webkit-keyframes FadeOut {
     0%, 80% {
         opacity: 1;
@@ -258,6 +260,8 @@ body {
         background-color: transparent;
     }
 }
+*/
+/* MENU ANIATION */
 #mobilemenu {
     background-color: #e74c3c;
     width: 100vh;

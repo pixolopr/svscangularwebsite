@@ -133,5 +133,58 @@ ul.socialicons li i:hover {
 .sliderimage {
     width: 100%;
     position: fixed;
-    left:0vh;
+    left: 0vh;
+}
+.pcmenu {
+   
+    width: 206vh;
+    margin-left: 459px;
+    margin-top: 49px;
+    
+}
+.pcmenu a {
+   -webkit-transform: skewX(30deg) !important;
+-moz-transform: skewX(30deg) !important;
+-ms-transform: skewX(30deg) !important;
+display: inline-block;
+font-family: Agency FB;
+color: #ECDEDE;
+font-size: 30px;
+    
+}
+
+.home{
+
+margin-left: 32px;
+margin-top: 10px;
+}
+.about
+{
+margin-left: 68px;
+}
+.team
+{
+margin-left: 68px;
+}
+.contact
+{
+margin-left: 68px;
+}
+.basicstyle
+{
+  background-color: rgba(231, 76, 60, 0.86);
+    height: 64px;
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -ms-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+    box-shadow: 5px 5px 5px #888888;
+
+}
+.pcsvsc
+{
+width: 201px;
+margin-top: 110px;
+position: absolute;
+margin-left: 223px;
 }
