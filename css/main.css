@@ -132,6 +132,7 @@ ul.socialicons li i:hover {
 }
 .sliderimage {
     position: fixed;
+<<<<<<< HEAD
     width: 102%;
     margin-left: -8%;
 }
@@ -191,3 +192,7 @@ ul.socialicons li i:hover {
     margin-top: -6px;
 }
 .news {}
+=======
+    left:0vh;
+}
+>>>>>>> parent of e6e1878... Menu
