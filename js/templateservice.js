@@ -10,8 +10,8 @@ templateservicemod.service('TemplateService', function () {
     this.slider = "views/slider.html";
     this.content = "views/content.html";
     this.footermenu = "views/footermenu.html";
-   /* this.footer = "views/footer.html";
-    */
-    var d=new Date();
-    this.year=d.getFullYear();
+    this.footer = "views/footer.html";
+
+    var d = new Date();
+    this.year = d.getFullYear();
 });

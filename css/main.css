@@ -137,9 +137,10 @@ ul.socialicons li i:hover {
     z-index: -3;
 }
 .pcmenu {
-    width: 62%;
-    margin-left: 40%;
-    margin-top: 49px;
+    width: 738px;
+    position: absolute;
+    left: 481px;
+    top: 70px;
 }
 .pcmenu a {
     -webkit-transform: skewX(30deg) !important;
@@ -170,13 +171,13 @@ ul.socialicons li i:hover {
     -moz-transform: skewX(-30deg);
     -ms-transform: skewX(-30deg);
     transform: skewX(-30deg);
-    box-shadow: 5px 5px 5px #888888;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.67);
 }
 .pcsvsc {
     width: 201px;
-    margin-top: 111px;
+    top: 133px;
     position: absolute;
-    margin-left: 223px;
+    left: 244px;
 }
 .pctext {
     font-family: cursive;
@@ -184,5 +185,41 @@ ul.socialicons li i:hover {
     -webkit-transform: skewX(30deg);
     font-size: 40px;
     margin-left: 64px;
-    margin-top: -6px;
+    margin-top: -60px;
+}
+.newsbar {
+    left: 55%;
+    top: 63%;
+    height: 28%;
+    width: 50%;
+    position: fixed;
+}
+.newsinner {
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -ms-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+    padding-left: 10px;
+}
+.newstext {
+    font-family: cursive;
+    color: #ECDEDE;
+    -webkit-transform: skewX(30deg);
+    font-size: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.newsborder {
+    border-bottom: solid white;
+    border-bottom-width: thin;
+    width: 70%;
+}
+.svsclogo {
+    -webkit-transform: skewX(30deg);
+    padding-left: 16px;
+    padding-top: 5px;
+}
+.menuheader {
+    left: -150px;
+    width: 100%;
 }

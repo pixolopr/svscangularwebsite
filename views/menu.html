@@ -1,23 +1,29 @@
 <div class="container">
 
-<div ng-show="devicetest()" id="mobilemenu"><a>HOME</a><a href="#/about">ABOUT</a><a>TEAM</a><a href="#/contact">CONTACT</a></div>
+    <div ng-show="devicetest()" id="mobilemenu"><a>HOME</a><a href="#/about">ABOUT</a><a>TEAM</a><a href="#/contact">CONTACT</a>
+    </div>
 
-   <div ng-hide="devicetest()" class= "pcmenu basicstyle pcsvsc ">
-      <div class="pctext" > <p>SVSC</p></div>
-    
-    </div> 
-    <div ng-hide="devicetest()" class="pcmenu basicstyle">
-    
-    
-    <a href="#/home" class="home">HOME</a><a href="#/about" class="about">ABOUT</a><a  href="#/team" class="team">TEAM</a><a  class="contact" href="#/contact">CONTACT</a>
-        
-    
+  <div class="menuheader"> 
+      
+      
+      
+      <div ng-hide="devicetest()" class=" basicstyle pcsvsc">
+        <div class="svsclogo"><img src="img/svsclogowhite.png" width="40px" > </div>
+        <div class="pctext">
+            <p>SVSC</p>
+        </div>
+
+
+    </div>
+    <div ng-hide="devicetest()" class="pcmenu basicstyle ">
+
+
+        <a href="#/home" class="home">HOME</a><a href="#/about" class="about">ABOUT</a><a href="#/team" class="team">TEAM</a><a class="contact" href="#/contact">CONTACT</a>
+
+
+    </div>
+
 </div>
-    
-    <div ng-hide="devicetest()" class= "pcmenu basicstyle ">
-      <div class="pctext" > <p>news</p></div>
-    
-    </div> 
 
 
 </div>
