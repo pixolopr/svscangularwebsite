@@ -133,13 +133,8 @@ ul.socialicons li i:hover {
 .sliderimage {
     position: fixed;
     width: 102%;
-    margin-left: -20%;
+    margin-left: -10%;
     z-index: -3;
-}
-.sliderclass img{
-    position: fixed;
-    width: 102%;
-    margin-left: -8%;
 }
 .pcmenu {
     width: 62%;
