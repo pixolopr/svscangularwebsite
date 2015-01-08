@@ -132,9 +132,9 @@ ul.socialicons li i:hover {
 }
 .sliderimage {
     position: fixed;
-<<<<<<< HEAD
     width: 102%;
-    margin-left: -8%;
+    margin-left: -20%;
+    z-index: -3;
 }
 .sliderclass img{
     position: fixed;
@@ -142,8 +142,8 @@ ul.socialicons li i:hover {
     margin-left: -8%;
 }
 .pcmenu {
-    width: 112vh;
-    margin-left: 459px;
+    width: 62%;
+    margin-left: 40%;
     margin-top: 49px;
 }
 .pcmenu a {
@@ -191,8 +191,3 @@ ul.socialicons li i:hover {
     margin-left: 64px;
     margin-top: -6px;
 }
-.news {}
-=======
-    left:0vh;
-}
->>>>>>> parent of e6e1878... Menu
