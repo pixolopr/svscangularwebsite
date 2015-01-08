@@ -7,7 +7,7 @@ phonecatControllers.controller('home', ['$scope', 'TemplateService', 'Navigation
         TemplateService.title = "OMKAR";
         $scope.navigation = NavigationService.getnav();
       
-        TemplateService.content = "views/content.html";
+        TemplateService.content = "views/homecontent.html";
         console.log($scope.content);
 
         $scope.showmenu = function () {
