@@ -224,16 +224,10 @@ ul.socialicons li i:hover {
     width: 100%;
 }
 .footer {
-    background-image: url("../img/Untitled-2.png");
-    background-size: 100px 120px;
-    height: 100px;
-    width: 100px;
-}
-.footer:hover {
-    background-image: url("../img/reversetwitter.png");
-    background-size: 100px 120px;
-    height: 100px;
-    width: 100px;
+    width: 55px;
+    position: fixed;
+    left: 70px;
+    bottom: 0px;
 }
 .footer2 {
     width: 50px;
