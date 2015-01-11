@@ -223,29 +223,33 @@ ul.socialicons li i:hover {
     left: -150px;
     width: 100%;
 }
-.footer{
-    width: 55px;
-position: fixed;
-left: 70px;
-bottom: 0px;
+.footer {
+    background-image: url("../img/Untitled-2.png");
+    background-size: 100px 120px;
+    height: 100px;
+    width: 100px;
 }
-.footer2{
-  width: 50px;
-position: fixed;
-  left: 14px;
-bottom: 5px;
+.footer:hover {
+    background-image: url("../img/reversetwitter.png");
+    background-size: 100px 120px;
+    height: 100px;
+    width: 100px;
 }
-.footer3{
- width: 38px;
-position: fixed;
-  left: 136px;
-bottom: 10px;
+.footer2 {
+    width: 50px;
+    position: fixed;
+    left: 14px;
+    bottom: 5px;
 }
-.footer4{
- width: 48px;
-position: fixed;
-  left: 197px;
-bottom: 5px;
+.footer3 {
+    width: 38px;
+    position: fixed;
+    left: 136px;
+    bottom: 10px;
 }
-
-
+.footer4 {
+    width: 48px;
+    position: fixed;
+    left: 197px;
+    bottom: 5px;
+}
