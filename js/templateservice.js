@@ -11,6 +11,7 @@ templateservicemod.service('TemplateService', function () {
     this.content = "views/content.html";
     this.footermenu = "views/footermenu.html";
     this.footer = "views/footer.html";
+    this.team = "views/team.html";
 
     var d = new Date();
     this.year = d.getFullYear();

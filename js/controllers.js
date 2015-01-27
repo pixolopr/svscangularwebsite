@@ -46,12 +46,12 @@ phonecatControllers.controller('about', ['$scope', 'TemplateService', 'Navigatio
         TemplateService.title = $scope.menutitle;
         $scope.navigation = NavigationService.getnav();
   }]);
-phonecatControllers.controller('services', ['$scope', 'TemplateService', 'NavigationService',
+phonecatControllers.controller('team', ['$scope', 'TemplateService', 'NavigationService',
   function ($scope, TemplateService, NavigationService) {
         $scope.template = TemplateService;
         $scope.menutitle = NavigationService.makeactive("Services");
         TemplateService.title = $scope.menutitle;
-        $scope.navigation = NavigationService.getnav();
+        TemplateService.content = "views/team.html";
   }]);
 phonecatControllers.controller('portfolio', ['$scope', 'TemplateService', 'NavigationService',
   function ($scope, TemplateService, NavigationService) {

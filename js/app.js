@@ -17,9 +17,9 @@ firstapp.config(['$routeProvider',
             templateUrl: 'views/template.html',
             controller: 'about'
         }).
-        when('/services', {
+        when('/team', {
             templateUrl: 'views/template.html',
-            controller: 'services'
+            controller: 'team'
         }).
         when('/portfolio', {
             templateUrl: 'views/template.html',

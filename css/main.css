@@ -247,3 +247,68 @@ ul.socialicons li i:hover {
     left: 197px;
     bottom: 5px;
 }
+.backgroundcontainer {
+    background-color: rgba(255, 255, 255, 0.41);
+    width: 65%;
+    padding: 3%;
+}
+.rowwidth {
+    width: 100%;
+}
+.set {
+    margin-top: 20%;
+    width: 100%;
+    display: block;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    left: 50%;
+}
+.set2 {
+    background-color: green;
+    width: 100%;
+}
+.playerimage {
+    width: 83%;
+    display: block;
+    margin-left: 9%;
+}
+.playercontainer {
+    background-color: #e74c3c ;
+    color: white;
+    height: 50vh;
+    width: 100%;
+    margin-top: -40%;
+    padding-top: 45%;
+    padding-left: 2%;
+    padding-right: 14px;
+    padding-bottom: 14px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.footercontainer
+{
+color: #e74c3c;
+background-color: white;
+font-size: medium;
+padding-bottom: 7%;
+padding-top: 7%;
+font-weight: bolder;
+padding-left: 35%;
+}
+.playerdes
+{
+  color: white;
+tfont-weight: 200;
+font-size: 12px;
+padding-left: 6%;
+padding-top: 11%;
+text-align: center;
+}
+.name
+{
+   padding-left: 13%;
+    font-size: 17px;
+    
+
+
+}
