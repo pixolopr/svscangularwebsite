@@ -1,5 +1,5 @@
 var phonecatControllers = angular.module('phonecatControllers', ['templateservicemod', 'navigationservice']);
-var adminurl = "http://localhost/svscbackend/index.php/";
+var adminurl = "http://pixolo.comli.com/backend/index.php/";
 
 phonecatControllers.controller('home', ['$scope', 'TemplateService', 'NavigationService',
   function ($scope, TemplateService, NavigationService) {
@@ -56,14 +56,14 @@ phonecatControllers.controller('team', ['$scope', 'TemplateService', 'Navigation
         TemplateService.title = $scope.menutitle;
         TemplateService.content = "views/team.html";
 
-        /*var playerdata = function (data, status) {
+        var playerdata = function (data, status) {
                 console.log(data);
                 $scope.playerdata = data;
                 console.log($scope.playerdata[0].position);
         };
-        $http.get(adminurl + "site/getplayers", {
+        $http.get(adminurl+"site/getplayers", {
             params: {}
-        }).success(playerdata);*/
+        }).success(playerdata);
   }]);
 phonecatControllers.controller('portfolio', ['$scope', 'TemplateService', 'NavigationService',
   function ($scope, TemplateService, NavigationService) {

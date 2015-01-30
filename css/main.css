@@ -147,7 +147,7 @@ ul.socialicons li i:hover {
     position: absolute;
     left: 481px;
     top: 70px;
-    z-index: 10;
+    z-index: 4;
 }
 .pcmenu a {
     -webkit-transform: skewX(30deg) !important;
@@ -185,7 +185,7 @@ ul.socialicons li i:hover {
     top: 133px;
     position: absolute;
     left: 244px;
-    z-index: 3;
+    z-index: 4;
 }
 .pctext {
     font-family: cursive;
