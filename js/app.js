@@ -21,10 +21,10 @@ firstapp.config(['$routeProvider',
             templateUrl: 'views/template.html',
             controller: 'team'
         }).
-        when('/portfolio', {
+        /*when('/portfolio', {
             templateUrl: 'views/template.html',
             controller: 'portfolio'
-        }).
+        }).*/
         when('/contact', {
             templateUrl: 'views/template.html',
             controller: 'contact'

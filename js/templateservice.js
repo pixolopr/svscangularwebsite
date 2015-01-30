@@ -12,6 +12,10 @@ templateservicemod.service('TemplateService', function () {
     this.footermenu = "views/footermenu.html";
     this.footer = "views/footer.html";
     this.team = "views/team.html";
+      this.contact = "views/contact.html";
+  this.about = "views/about.html";
+    
+    
 
     var d = new Date();
     this.year = d.getFullYear();

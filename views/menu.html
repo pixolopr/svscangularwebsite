@@ -3,11 +3,11 @@
     <div ng-show="devicetest()" id="mobilemenu"><a>HOME</a><a href="#/about">ABOUT</a><a>TEAM</a><a href="#/contact">CONTACT</a>
     </div>
 
-  <div class="menuheader"> 
+  <div ng-hide="devicetest()" class="menuheader"> 
       
       
       
-      <div ng-hide="devicetest()" class=" basicstyle pcsvsc">
+      <div  class=" basicstyle pcsvsc">
         <div class="svsclogo"><img src="img/svsclogowhite.png" width="40px" > </div>
         <div class="pctext">
             <p>SVSC</p>
@@ -15,7 +15,7 @@
 
 
     </div>
-    <div ng-hide="devicetest()" class="pcmenu basicstyle ">
+    <div  class="pcmenu basicstyle ">
 
 
         <a href="#/home" class="home">HOME</a><a href="#/about" class="about">ABOUT</a><a href="#/team" class="team">TEAM</a><a class="contact" href="#/contact">CONTACT</a>

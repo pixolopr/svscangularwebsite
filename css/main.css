@@ -21,12 +21,19 @@ a:hover {
     background-color: #C44639;
 }
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
     margin-top: 0px;
+    margin-left: 24px;
+}
+h2 {
+    color: red;
+    color: rgb(214, 80, 66);
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 7%;
 }
 p {
     line-height: 180%;
@@ -141,6 +148,7 @@ ul.socialicons li i:hover {
     position: absolute;
     left: 481px;
     top: 70px;
+    z-index: 10;
 }
 .pcmenu a {
     -webkit-transform: skewX(30deg) !important;
@@ -188,11 +196,11 @@ ul.socialicons li i:hover {
     margin-top: -60px;
 }
 .newsbar {
-    left: 55%;
-    top: 63%;
-    height: 28%;
-    width: 50%;
-    position: fixed;
+    left: 28%;
+    height: 35vh;
+    margin-top: 64%;
+    width: 100%;
+    position: absolute;
 }
 .newsinner {
     -webkit-transform: skewX(-30deg);
@@ -200,14 +208,15 @@ ul.socialicons li i:hover {
     -ms-transform: skewX(-30deg);
     transform: skewX(-30deg);
     padding-left: 10px;
+    height: 50%;
 }
 .newstext {
-    font-family: cursive;
     color: #ECDEDE;
     -webkit-transform: skewX(30deg);
-    font-size: 20px;
-    padding-right: 50px;
+    font-size: 2em;
+    padding-right: 81px;
     padding-left: 50px;
+    padding-top: 2.5%;
 }
 .newsborder {
     border-bottom: solid white;
@@ -256,16 +265,12 @@ ul.socialicons li i:hover {
     width: 100%;
 }
 .set {
-    margin-top: 20%;
     width: 100%;
     display: block;
     /*margin-left: auto;
     margin-right: auto;*/
+    margin-top: 12%;
     left: 50%;
-}
-.set2 {
-    background-color: green;
-    width: 100%;
 }
 .playerimage {
     width: 83%;
@@ -273,9 +278,9 @@ ul.socialicons li i:hover {
     margin-left: 9%;
 }
 .playercontainer {
-    background-color: #e74c3c ;
+    background-color: #e74c3c;
     color: white;
-    height: 50vh;
+    height: 31vh;
     width: 100%;
     margin-top: -40%;
     padding-top: 45%;
@@ -285,30 +290,98 @@ ul.socialicons li i:hover {
     font-weight: bolder;
     font-size: 14px;
 }
-.footercontainer
-{
-color: #e74c3c;
-background-color: white;
-font-size: medium;
-padding-bottom: 7%;
-padding-top: 7%;
-font-weight: bolder;
-padding-left: 35%;
+.footercontainer {
+    color: rgb(51, 51, 51);
+    font-size: medium;
+    padding-bottom: 7%;
+    padding-top: 5%;
+    font-weight: bolder;
+    padding-left: 15%;
+    margin-left: 2%;
+    width: 81%;
 }
-.playerdes
-{
-  color: white;
-tfont-weight: 200;
-font-size: 12px;
-padding-left: 6%;
-padding-top: 11%;
-text-align: center;
+.playerdes {
+    color: white;
+    font-weight: 200;
+    font-size: 12px;
+    padding-left: 14%;
+    padding-top: 11%;
+    text-align: center;
 }
-.name
-{
-   padding-left: 13%;
-    font-size: 17px;
+.name {
+    padding-left: 20%;
+    font-size: 18px;
+}
+.number {
+    margin-left: 94%;
+    margin-top: -60%
+}
+.contactcontainer {
+    background-color: rgba(255, 255, 255, 0.41);
+}
+.footercontainer1 {
+    background-color: rgb(236, 222, 222);
+    color: #e74c3c;
+    font-size: 20px;
+    text-align: center;
+}
+.nextmatch {
+    background-color: white;
+    width: 100%;
+    height: 40vh;
+}
+.boxtitle {
+    font: bold 1.1em arial;
+    color: #FFF;
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 23px;
+    margin-bottom: 1px;
+}
+.mobileslider {
+    width: 100%;
+    position: fixed;
+    margin-left: -10%;
+    z-index: -3;
+}
+.matchtext {
+    font-family: fantasy;
+    font-size: x-large;
+    text-align: -webkit-center;
+    margin-top: 17%;
+}
+.lastmatch {
+    background-color: white;
+    width: 41vh;
+    height: 30vh;
+    margin-top: 70%;
+}
+.homeboxes {
+    background-color: rgba(255, 255, 255, 0.41);
+    margin-top: 58%;
+}
+.homeboxesinner {
+    padding: 20px;
+}
+.homeboxestext {
+    text-align: -webkit-center;
+    font-size: medium;
+}
+.leaguetext {
+    font-size: initial;
+    font-weight: 700;
     
-
-
+}
+.aboutcontainer
+{
+    position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid red;
+   border-bottom: 13px solid transparent;
+    width: 100%;
+    
 }

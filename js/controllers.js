@@ -28,7 +28,7 @@ phonecatControllers.controller('home', ['$scope', 'TemplateService', 'Navigation
 
         $('#mobilemenu').addClass('animated lightSpeedIn');
 
-        console.log("Abhay Amin");
+       /* console.log("Abhay Amin");
         var ypos = 10;
         $(window).scroll(function () {
             ypos = window.pageYOffset;
@@ -36,7 +36,7 @@ phonecatControllers.controller('home', ['$scope', 'TemplateService', 'Navigation
             if (ypos > 100) {
                 $('#mobilemenu').toggleClass('active');
             };
-        });
+        });*/
   }]);
 
 
@@ -45,7 +45,8 @@ phonecatControllers.controller('about', ['$scope', 'TemplateService', 'Navigatio
         $scope.template = TemplateService;
         $scope.menutitle = NavigationService.makeactive("About");
         TemplateService.title = $scope.menutitle;
-        $scope.navigation = NavigationService.getnav();
+       TemplateService.content = "views/about.html";
+       
   }]);
 phonecatControllers.controller('team', ['$scope', 'TemplateService', 'NavigationService', '$http',
 
@@ -76,7 +77,8 @@ phonecatControllers.controller('contact', ['$scope', 'TemplateService', 'Navigat
         $scope.template = TemplateService;
         $scope.menutitle = NavigationService.makeactive("Contact");
         TemplateService.title = $scope.menutitle;
-        $scope.navigation = NavigationService.getnav();
+             TemplateService.content = "views/contact.html";
+       
   }]);
 
 
