@@ -29,11 +29,10 @@ h6 {
     margin-left: 24px;
 }
 h2 {
-    color: red;
-    color: rgb(214, 80, 66);
-    text-align: center;
-    font-size: xx-large;
-    margin-top: 7%;
+   color: #3cd7e7;
+margin-top: 3%;
+text-align: center;
+margin-right: 7%;
 }
 p {
     line-height: 180%;
@@ -186,6 +185,7 @@ ul.socialicons li i:hover {
     top: 133px;
     position: absolute;
     left: 244px;
+    z-index: 3;
 }
 .pctext {
     font-family: cursive;
@@ -269,8 +269,9 @@ ul.socialicons li i:hover {
     display: block;
     /*margin-left: auto;
     margin-right: auto;*/
-    margin-top: 12%;
+    margin-top: 23em;
     left: 50%;
+    margin-bottom: 15em;
 }
 .playerimage {
     width: 83%;
@@ -318,6 +319,9 @@ ul.socialicons li i:hover {
 }
 .contactcontainer {
     background-color: rgba(255, 255, 255, 0.41);
+    margin-bottom: 6em;
+    margin-left: 7em;
+margin-right: 7em;
 }
 .footercontainer1 {
     background-color: rgb(236, 222, 222);
@@ -329,6 +333,7 @@ ul.socialicons li i:hover {
     background-color: white;
     width: 100%;
     height: 40vh;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.67);
 }
 .boxtitle {
     font: bold 1.1em arial;
@@ -346,7 +351,7 @@ ul.socialicons li i:hover {
 }
 .matchtext {
     font-family: fantasy;
-    font-size: x-large;
+    font-size: 5vh;
     text-align: -webkit-center;
     margin-top: 17%;
 }
@@ -355,17 +360,19 @@ ul.socialicons li i:hover {
     width: 41vh;
     height: 30vh;
     margin-top: 70%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.67);
 }
 .homeboxes {
-    background-color: rgba(255, 255, 255, 0.41);
-    margin-top: 58%;
+background-color: rgba(255, 255, 255, 0.41);
+margin-top: 61%;
+margin-bottom: -10%;
 }
 .homeboxesinner {
     padding: 20px;
 }
 .homeboxestext {
     text-align: -webkit-center;
-    font-size: medium;
+    font-size: 3vh;
 }
 .leaguetext {
     font-size: initial;
@@ -381,4 +388,23 @@ ul.socialicons li i:hover {
 .fixed{
 position: fixed;
     top:0px;
+}
+.shadow{
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.67);
+}
+.address
+{
+    font-size: 2em;
+    margin-left: 6em;
+}
+.contactform
+{
+    background-color: black;
+    margin-top: 2em;
+}
+.contactinfo
+{
+    background-color: black;
+    padding-bottom: 3em;
+    margin-top: 3em;
 }
