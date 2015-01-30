@@ -25,7 +25,7 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    
+
 
     <script src="js/app.js"></script>
     <script src="js/controllers.js"></script>
@@ -35,7 +35,23 @@
 </head>
 
 <body>
-   <!-- <div class="blackbg">
+    <script>
+        $(window).bind('scroll', function () {
+            if ($(window).scrollTop() > 130) {
+                $('.pcsvsc').addClass('fixed');
+            } else {
+                $('.pcsvsc').removeClass('fixed');
+            }
+        });
+        $(window).bind('scroll', function () {
+            if ($(window).scrollTop() >70  ) {
+                $('.pcmenu').addClass('fixed');
+            } else {
+                $('.pcmenu').removeClass('fixed');
+            }
+        });
+    </script>
+    <!-- <div class="blackbg">
         <h2 class="frame1 text1">ONE TEAM</h2>
         <h2 class="frame1 text2">ONE DREAM</h2>
         <h2 class="frame1 text3">ONE FAMILY</h2>
